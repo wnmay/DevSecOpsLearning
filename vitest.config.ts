@@ -1,9 +1,7 @@
-// filepath: demo-se2-frontend/vitest.config.ts
-import { defineConfig } from 'vitest/config';
-
+import { defineConfig } from "vitest/config";
 export default defineConfig({
   test: {
-    environment: 'jsdom',
+    environment: "jsdom",
     globals: true,
   },
 });
